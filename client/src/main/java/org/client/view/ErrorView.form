@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.client.view.ErrorView">
+  <grid id="27dc6" binding="errorViewForm" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="501" height="383"/>
+    </constraints>
+    <properties>
+      <background color="-14802906"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9c590" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="5" left="5" bottom="5" right="5" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-9865883"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3af5b" class="javax.swing.JLabel" binding="errorMessageLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="1"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <text value="Error: Invalid Game ID"/>
+            </properties>
+          </component>
+          <component id="ef7f5" class="javax.swing.JButton" binding="closeButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-2112059"/>
+              <font size="12" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Close"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.client.view.GameView">
+  <grid id="27dc6" binding="gameViewForm" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="1368" height="620"/>
+    </constraints>
+    <properties>
+      <background color="-13682897"/>
+      <opaque value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="440b5" binding="rightSidePane" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="10.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+        <properties>
+          <background color="-13682897"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="fe91d" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="4" col-span="10" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="30" left="30" bottom="30" right="30" weightx="10.0" weighty="4.0"/>
+            </constraints>
+            <properties>
+              <background color="-15526630"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="6ccaa" binding="gameBoardPane" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="10" bottom="10" right="10" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="a1f51" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="10" bottom="10" right="10" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-14802914"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="e9d2a" binding="leftSidePane" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10061729"/>
+              <enabled value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2853" class="javax.swing.JButton" binding="ExitButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="10" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-2112059"/>
+                  <enabled value="true"/>
+                  <font name="Arial Black" size="12" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Exit"/>
+                </properties>
+              </component>
+              <grid id="a29d" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="5" left="5" bottom="5" right="5"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="10" bottom="10" right="10" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-14802914"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="3c4f9" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="10" left="10" bottom="10" right="10"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-11839163"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="2e716" class="javax.swing.JButton" binding="rollDiceButton">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+                            <minimum-size width="100" height="30"/>
+                            <preferred-size width="100" height="30"/>
+                            <maximum-size width="100" height="30"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-2112059"/>
+                          <font name="Arial Black" size="12" style="1"/>
+                          <text value="Roll"/>
+                        </properties>
+                      </component>
+                      <component id="a0c84" class="javax.swing.JLabel" binding="diceLabel">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="1"/>
+                          <maximumSize width="10" height="10"/>
+                          <preferredSize width="80" height="80"/>
+                          <requestFocusEnabled value="false"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="41994" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="5" left="5" bottom="5" right="5"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="10" left="10" bottom="10" right="10" weightx="0.0" weighty="9.0"/>
+                </constraints>
+                <properties>
+                  <background color="-14802914"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="93966" class="javax.swing.JTextPane" binding="scoreArea">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                        <maximum-size width="1000000" height="1000000"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <autoscrolls value="true"/>
+                      <background color="-11839163"/>
+                      <dragEnabled value="false"/>
+                      <editable value="false"/>
+                      <enabled value="false"/>
+                      <focusCycleRoot value="false"/>
+                      <focusable value="false"/>
+                      <font name="Lucida Sans Typewriter" size="36" style="1"/>
+                      <inheritsPopupMenu value="true"/>
+                      <opaque value="true"/>
+                      <requestFocusEnabled value="false"/>
+                      <selectionEnd value="0"/>
+                      <selectionStart value="0"/>
+                      <text value=""/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <grid id="e81ea" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-15131879"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="e8f6a" class="javax.swing.JTextPane" binding="currentPlayerTextPane" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-11839163"/>
+                          <font name="Arial Black" size="16" style="1"/>
+                          <foreground color="-1"/>
+                          <text value="CurrentPlayer: "/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
